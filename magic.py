@@ -1,12 +1,15 @@
+#This script simulates an 8-ball with a few flow control possibilities
 import random
 
+#name of who's asking
 name = "Jaja"
+#their question
 question = ""
-answer = ""
 
-#choosing answer
+
+answer = ""
+#choosing answer number
 random_number = random.randint(1, 9)
-#print(random_number)
 
 if random_number == 1:
   answer = "Yes - definitely."
